@@ -16,7 +16,7 @@ public class Patient {
         else {
             this.height = Math.abs(height) ;
         }
-        if(weight > 0 && weight < 300) {
+        if(weight > 0) {
             this.weight = weight ;
         }
         else {
